@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-hide",
+  "version": "1.0.0",
+  "description": "Mongoose plugin for hiding fields",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/*"
+  },
+  "author": "evilive3000 <evilive3000@gmail.com>",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "peerDependencies": {
+    "mongoose": ">= 4.7.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
